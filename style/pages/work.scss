@@ -1,0 +1,78 @@
+@use "./home-responsive.scss";
+.how-it-works {
+  display: grid;
+  grid-template-columns: 1fr;
+  &-theme {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    &-h2 {
+      text-align: center;
+      font-family: Roboto;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57.6px;
+      color: #2a2c1f;
+    }
+    &-p {
+      max-width: 754px;
+      padding: 21px 0px 61px 0px;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      color: #65665c;
+    }
+  }
+  &-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 32px;
+    margin-bottom: 128px;
+    @media screen and (max-width: 850px) {
+      .how-it-works {
+        &-cards {
+          display: none;
+        }
+      }
+    }
+    &-item {
+      border-radius: 16px;
+      border: 1px solid #e7e8e3;
+      background: #fff;
+      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+      text-align: center;
+      &-icon {
+        margin: 49px 0px 24px 0px;
+        padding: 8px;
+        text-align: center;
+        font-family: "Material Icons";
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 48px;
+        color: #cf6f49;
+        border-radius: 8px;
+        background: #fae8e1;
+      }
+      &-h4 {
+        text-align: center;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 700;
+        color: #2a2c1f;
+        line-height: 33.6px;
+      }
+      &-p {
+        padding: 17px 34px 47px 34px;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        color: #65665c;
+        line-height: 24px;
+      }
+    }
+  }
+}
