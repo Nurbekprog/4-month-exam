@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+body {
+  scroll-behavior: auto;
+}
+
 *button {
   border: none;
   cursor: pointer;

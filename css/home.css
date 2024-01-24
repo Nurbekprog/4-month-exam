@@ -11,6 +11,10 @@
           box-sizing: border-box;
 }
 
+body {
+  scroll-behavior: auto;
+}
+
 * button {
   border: none;
   cursor: pointer;
@@ -72,8 +76,8 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: static;
-  top: 40px;
+  position: sticky;
+  top: 0px;
   right: auto;
   padding: 21px 0px;
   -webkit-box-pack: justify;
@@ -233,6 +237,7 @@ nav ul li a:hover {
   display: block;
   width: 70%;
   height: 100vh;
+  height: 100%;
   padding: 20% 0;
   background: rgb(255, 255, 255);
   -webkit-transition: all 0.5s ease-in;
