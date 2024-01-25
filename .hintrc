@@ -14,6 +14,7 @@
     "axe/structure": "off",
     "button-type": "off",
     "axe/forms": "off",
-    "compat-api/css": "off"
+    "compat-api/css": "off",
+    "axe/parsing": "off"
   }
 }

@@ -261,5 +261,10 @@ section {
     border-radius: 6px;
     border: 1px solid #cf6f49;
     background: #cf6f49;
+    transition: all 0.6s;
+  }
+  button:hover {
+    background-color: #fff;
+    color: #cf6f49;
   }
 }

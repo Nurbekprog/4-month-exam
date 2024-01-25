@@ -44,6 +44,7 @@
       background: #fff;
       box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
       text-align: center;
+      transition: all .6s;
       &-icon {
         margin: 49px 0px 24px 0px;
         padding: 8px;
@@ -74,5 +75,8 @@
         line-height: 24px;
       }
     }
+    &-item:hover {
+      transform: rotateX(20%);
+    } 
   }
 }

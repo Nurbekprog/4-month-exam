@@ -41,7 +41,6 @@
 .blog--body-top .text-p2 {
   width: 100%;
   max-width: 710px;
-  margin-right: 400px;
   color: #65665c;
   font-family: Roboto;
   font-size: 18px;
@@ -65,4 +64,117 @@
   background-color: #fff;
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
           box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.blog--body-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  padding-bottom: 129px;
+}
+
+.blog--body-cards-item {
+  display: block;
+}
+.blog--body-cards-item img {
+  width: 100%;
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+.blog--body-cards-item .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 300px;
+  margin-top: -10px;
+  border-radius: 0px 0px 16px 16px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.blog--body-cards-item .text-li-1 {
+  padding-left: 24px;
+  padding-right: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+.blog--body-cards-item .text-li-1-p1 {
+  padding: 4px 8px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #2a2c1f;
+  border-radius: 32px;
+  background: #fae8e1;
+}
+.blog--body-cards-item .text-li-1-p2 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #65665c;
+}
+.blog--body-cards-item .text-li-2 {
+  padding-left: 24px;
+  padding-right: 16px;
+}
+.blog--body-cards-item .text-li-2 h4 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33.6px;
+  color: #2a2c1f;
+}
+.blog--body-cards-item .text-li-3 {
+  padding-left: 24px;
+  padding-right: 16px;
+  padding-top: 5px;
+  padding-bottom: 24px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #65665c;
+}
+.blog--body-cards-item .text-li-4 a {
+  padding-left: 24px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+  color: #2a2c1f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  -webkit-transition: 0.7px;
+  transition: 0.7px;
+}
+.blog--body-cards-item .text-li-4 a:hover {
+  color: #2a2c1f;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
 }

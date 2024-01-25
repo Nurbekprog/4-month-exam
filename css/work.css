@@ -405,11 +405,91 @@
     margin-right: auto;
   }
 }
-@media (max-width: 510px) {
-  .text-p2 {
-    width: 100%;
-    margin-right: 20px;
+@media (max-width: 1229px) {
+  .blog--body-cards {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 780px) {
+  .blog--body-cards {
+    grid-template-columns: 1fr;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}
+@media (max-width: 540px) {
+  .blog--body-cards {
     margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 350px) {
+  .blog--body-cards {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+@media (max-width: 1200px) {
+  .footer-body {
+    gap: 50px;
+  }
+}
+@media (max-width: 1171px) {
+  .footer-body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form-subscribe {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 700px) {
+  .footer-body {
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 496px) {
+  .foooter div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+  }
+}
+@media (max-width: 350px) {
+  .home-left-img1 {
+    top: 114px;
+    left: -20px;
+  }
+}
+@media (max-width: 1000px) {
+  .home-left-img1 {
+    top: 114px;
+    left: -20px;
+  }
+}
+@media (max-width: 1079px) {
+  .home-left-img1 {
+    top: 114px;
+    left: -20px;
   }
 }
 .how-it-works {
@@ -460,6 +540,8 @@
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
           box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
   text-align: center;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 .how-it-works-cards-item-icon {
   margin: 49px 0px 24px 0px;
@@ -489,4 +571,8 @@
   font-weight: 400;
   color: #65665c;
   line-height: 24px;
+}
+.how-it-works-cards-item:hover {
+  -webkit-transform: rotateX(20%);
+          transform: rotateX(20%);
 }
