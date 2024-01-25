@@ -337,6 +337,33 @@
             justify-content: center;
   }
 }
+@media (max-width: 830px) {
+  .contact--body-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 530px) {
+  .contact--body-cards {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 569px) {
+  .families {
+    padding-left: -10px;
+    padding-right: -10px;
+  }
+  .families img {
+    margin: 40px 5px 10px 5px;
+  }
+  .families h4 {
+    padding-bottom: 16px;
+  }
+}
+@media (max-width: 315px) {
+  .families button {
+    margin-bottom: 150px;
+  }
+}
 .how-it-works {
   display: grid;
   grid-template-columns: 1fr;
