@@ -29,8 +29,6 @@ nav {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  position: sticky;
-  top: 0px;
   padding: 21px 0px;
   justify-content: space-between;
   align-items: center;
@@ -154,7 +152,6 @@ nav ul li a:hover {
   display: block;
   width: 70%;
   height: 100vh;
-  height: 100%;
   padding: 20% 0;
   background: rgba(255, 255, 255);
   transition: all 0.5s ease-in;
