@@ -82,12 +82,11 @@
   position: relative;
   transform: translateZ(0) scale(1);
   backface-visibility: hidden;
-  transform-origin: 0 0; 
+  transform-origin: 0 0;
 }
 .ldio-akmie3iqlx6 div {
   box-sizing: content-box;
 }
-
 
 .home {
   display: grid;
@@ -99,7 +98,7 @@
     &-img1 {
       max-width: 350px;
       position: absolute;
-      top: 128px;
+      top: 131px;
       left: -20px;
       rotate: 180deg;
     }

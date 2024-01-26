@@ -8,8 +8,8 @@
   z-index: 100;
   -webkit-transition: 0.7s;
   transition: 0.7s;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
-          box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 2px 0px 2px 1px black;
+          box-shadow: 2px 0px 2px 1px black;
 }
 
 #backtop:hover {
@@ -30,6 +30,6 @@
   #backtop {
     right: 25px;
     padding: 0px;
-    padding-bottom: 2px 1px 0px 1px;
+    padding-bottom: 2px;
   }
 }

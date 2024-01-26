@@ -24,7 +24,6 @@ function toggleBacktop() {
   }
 }
 
-
 let loadiing = document.getElementById("loading");
 
 window.addEventListener("load", () => {
