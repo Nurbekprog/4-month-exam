@@ -12,7 +12,7 @@
 
 body {
   scroll-behavior: smooth;
-  transition: all .7s;
+  transition: all 0.7s;
 }
 
 *button {
@@ -36,72 +36,109 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
-
-#theme-toggle-button {
-  font-size: 10px;
-  position: absolute;
-  top: -15px;
-  left: 0px;
-  display: inline-block;
-  width: 50px;
-  cursor: pointer;
-}
-
-#toggle {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-#container,
-#patches,
-#stars,
-#button,
-#sun,
-#moon,
-#cloud {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 0.25s;
-}
-
-#toggle:checked + svg #container {
-  fill: #2b4360;
-}
-
-#toggle:checked + svg #button {
-  transform: translate(28px, 2.333px);
-}
-
-#sun {
-  opacity: 1;
-}
-
-#toggle:checked + svg #sun {
-  opacity: 0;
-}
-
-#moon {
-  opacity: 0;
-}
-
-#toggle:checked + svg #moon {
-  opacity: 1;
-}
-
-
-#cloud {
-  opacity: 1;
-}
-
-#toggle:checked + svg #cloud {
-  opacity: 0;
-}
-
-#stars {
-  opacity: 0;
-}
-
-#toggle:checked + svg #stars {
-  opacity: 1;
+.dark {
+  nav {
+    background: #929778;
+    color: #fff;
+  }
+  header {
+    background: #929778;
+  }
+  .menubar {
+    background: #929778;
+  }
+  .home {
+    background: #929778;
+  }
+  .home-bottom {
+    background: #929778;
+  }
+  .how-it-works {
+    background: #929778;
+  }
+  .how-it-works-cards-item {
+    background: #929778;
+    .how-it-works-cards-item-h4,
+    .how-it-works-cards-item-p {
+      color: #fff;
+    }
+  }
+  .properties,
+  .contact,
+  .customers,
+  .blog,
+  .comfort,
+  .quick-easy,
+  .footer {
+    background: #929778;
+  }
+  .quick-easy-right-cards-item {
+    background: #929778;
+    .quick-easy-right-cards-item-h4,
+    .quick-easy-right-cards-item-p1,
+    .quick-easy-right-cards-item-p2 {
+      color: #fff;
+    }
+  }
+  .quick-easy-right-explore-btn {
+    background: #929778;
+    color: #fff;
+  }
+  .quick-easy-right-explore-link {
+    color: #fff;
+  }
+  .home-left-p2,
+  .home-left h1,
+  .home-bottom-desc,
+  .how-it-works-theme-h2,
+  .how-it-works-theme-p,
+  .comfort-left-p2,
+  .comfort-left-h3,
+  .comfort-left-explore-link,
+  .quick-easy-right-p2,
+  .quick-easy-right-h3,
+  .properties-body-text-h3,
+  .properties-explore-link,
+  .properties-body-cards-item-text-h4,
+  .properties-body-cards-item-text-h6,
+  .properties-body-cards-item-text-location p,
+  .contact--body-text h4,
+  .contact--body-text p,
+  .contact--body-cards-item h5,
+  .contact--body-cards-item a,
+  .contact-explore-link,
+  .customers--text h4,
+  .customers--text p,
+  .blog--body-top .text-p2,
+  .blog--body-top .text-h4,
+  .blog--body-cards-item .text-li-1-p2,
+  .blog--body-cards-item .text-li-2 h4,
+  .blog--body-cards-item .text-li-3,
+  .blog--body-cards-item .text-li-4 a,
+  .footer-body-links li ul h5,
+  .footer-body-links li ul li,
+  .footer-body-links li ul li a,
+  .forms-subscribe h5,
+  .forms-subscribe p {
+    color: #fff;
+  }
+  .comfort-left-explore-btn,
+  .properties-explore-btn,
+  .properties-body-cards-item-text,
+  .contact--body-cards-item,
+  .contact-explore-btn,
+  .blog--body-top .btn,
+  .blog--body-cards-item .text {
+    background: #929778;
+    color: #fff;
+  }
+  .foooter {
+    background-color: #929778;
+    p {
+      color: #fff;
+    }
+  }
+  main {
+    background: #929778;
+  }
 }
