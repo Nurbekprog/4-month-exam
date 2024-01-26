@@ -7,6 +7,12 @@ const toggleNav = () => {
 };
 mobileNav.addEventListener("click", () => toggleNav());
 
+window.addEventListener("scroll", function () {
+  toggleBacktop();
+});
+
+let backtop = document.getElementById("backtop");
+
 function toggleBacktop() {
   if (
     document.body.scrollTop > 200 ||
@@ -18,7 +24,20 @@ function toggleBacktop() {
   }
 }
 
-const checkbox = document.getElementById("checkbox");
-checkbox.addEventListener("change", () => {
-  document.body.classList.theme-toggle-button("dark");
+
+let loadiing = document.getElementById("loading");
+
+window.addEventListener("load", () => {
+  loading.classList.add("loading-none");
 });
+
+// or
+
+let loading = document.getElementById("loading");
+
+let loadingDuration = 2000; // 2s
+
+setTimeout(() => {
+  loading.classList.add("loading-none");
+}, loadingDuration);
+

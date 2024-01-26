@@ -1,22 +1,35 @@
 #backtop {
-  padding: 7px 12px 5px;
+  padding: 2px 3px 2px 3px;
   position: fixed;
-  bottom: -70px;
-  right: 20px;
+  bottom: -60px;
+  right: 40px;
   border-radius: 50%;
-  background-color: #CF6F49;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  background-color: #cf6f49;
   z-index: 100;
-  scroll-behavior: smooth;
-  visibility: hidden;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+#backtop:hover {
+  border: 5px solid #cf6f49;
+  background: white;
 }
 
 #backtop a {
   display: block;
-  padding: 8px;
+  padding: 10px;
 }
 
 #backtop.backtop-show {
-  bottom: 50px;
+  bottom: 25px;
+}
+
+@media (max-width: 500px) {
+  #backtop {
+    right: 25px;
+    padding: 0px;
+    padding-bottom: 2px 1px 0px 1px;
+  }
 }

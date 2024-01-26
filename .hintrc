@@ -15,6 +15,8 @@
     "button-type": "off",
     "axe/forms": "off",
     "compat-api/css": "off",
-    "axe/parsing": "off"
+    "axe/parsing": "off",
+    "detect-css-reflows/paint": "off",
+    "detect-css-reflows/composite": "off"
   }
 }
